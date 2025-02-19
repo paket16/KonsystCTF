@@ -8,3 +8,4 @@
 
 ## Референсы
 - [Мишкины придумки](https://ctf.hackatom.ru/)
+- [php rce](https://tryhackme.com/room/yueiua)
