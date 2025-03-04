@@ -6,7 +6,7 @@ docker build -t selfhash .
 
 # Start:
 ```
-docker run -p 9999:9999 --name selfhash selfhash
+docker run -p 9999:9999 --name selfhash_tmp selfhash
 ```
 
 # Usage:
