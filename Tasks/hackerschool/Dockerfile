@@ -8,9 +8,10 @@ ENV TZ = Asia/Yekaterinburg
 WORKDIR /var/www/html/
 # Копируем файлы проекта в рабочую директорию
 RUN mkdir -p /var/www/html/assets
-COPY index.html
-COPY style.css
+COPY index.html index.html
+COPY style.css style.css
 COPY ./assets/index.php ./assets/index.php
 # Указываем порт, на котором будет работать приложение
-EXPOSE 9998
+EXPOSE 8080
 # Запускаем приложение
+
