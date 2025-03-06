@@ -11,7 +11,8 @@ RUN mkdir -p /var/www/html/assets
 COPY index.html index.html
 COPY style.css style.css
 COPY ./assets/index.php ./assets/index.php
+COPY ./assets/broken_something.pGG ./assets/broken_something.pGG
+# Запускаем приложение
+RUN rm ./index.php
 # Указываем порт, на котором будет работать приложение
 EXPOSE 8080
-# Запускаем приложение
-
