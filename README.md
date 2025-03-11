@@ -7,4 +7,4 @@
 hackerschool - docker pull paket1609/hackerschool-task
 selfhash - docker pull paket1609/selfhash-task
 ```
-## Понравились задания или их реализация - не жалей ⭐️
+## Понравились задания или их реализация? - не жалей ⭐️
