@@ -7,7 +7,7 @@
 
 
 
-flag{MORSKOI_VOI}
+# flag{MORSKOI_VOI}
 Hex
 66 6c 61 67 7b 4d 4f 52 53 4b 4f 49 5f 56 4f 49 7d 0d 0a
 Base64
